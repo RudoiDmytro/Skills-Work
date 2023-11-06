@@ -1,0 +1,38 @@
+.free {
+  color: var(--color-palevioletred);
+}
+.englishBasicFreeContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+}
+.heading {
+  align-self: stretch;
+  flex-direction: column;
+}
+.heading,
+.job,
+.jobParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.job {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--gray-00);
+  box-shadow: 0 2px 18px rgba(24, 25, 28, 0.03);
+  border: 1px solid var(--gray-100);
+  flex-direction: column;
+  padding: var(--padding-5xl);
+}
+.jobParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--body-large-500-size);
+  color: var(--gray-900);
+  font-family: var(--button-button);
+}

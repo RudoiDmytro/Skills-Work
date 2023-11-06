@@ -1,0 +1,18 @@
+.frame,
+.frameChild {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frameChild {
+  position: relative;
+  width: 60px;
+  height: 40px;
+}
+.frame {
+  align-self: stretch;
+  height: 214px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}

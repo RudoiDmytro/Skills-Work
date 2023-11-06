@@ -1,0 +1,81 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  width: 101.2px;
+  height: 96px;
+  object-fit: cover;
+}
+.buttonWrapper {
+  position: absolute;
+  top: 20px;
+  left: 1058.5px;
+  width: 261.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.seniorUxDesigner {
+  position: relative;
+  line-height: 32px;
+  font-weight: 500;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.atFacebook,
+.fullTime {
+  position: relative;
+  line-height: 28px;
+}
+.fullTime {
+  line-height: 20px;
+  font-weight: 600;
+}
+.fullTimeWrapper {
+  border-radius: var(--br-10xs);
+  background-color: var(--success-500);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-9xs) var(--padding-xs);
+  font-size: var(--body-small-400-size);
+  color: var(--gray-00);
+}
+.atFacebookParent,
+.fullTimeWrapper,
+.headingParent {
+  display: flex;
+  justify-content: flex-start;
+}
+.atFacebookParent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xs);
+  font-size: var(--body-large-500-size);
+  color: var(--gray-700);
+}
+.headingParent {
+  position: absolute;
+  top: 12px;
+  left: 126.5px;
+  width: 319.5px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-xs);
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1320px;
+  height: 96px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--gray-900);
+  font-family: var(--button-button);
+}

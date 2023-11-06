@@ -1,0 +1,33 @@
+.socialMediaLogo {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.continueWithGoogle,
+.socialMediaLogo {
+  position: relative;
+}
+.socialMediaLogoParent {
+  position: absolute;
+  top: calc(50% - 17px);
+  left: calc(50% - 139px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.property1google {
+  border-radius: var(--br-21xl);
+  background-color: var(--gray-00);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  width: 578px;
+  height: 72px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-avenir);
+}

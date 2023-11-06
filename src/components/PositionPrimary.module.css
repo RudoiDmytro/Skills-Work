@@ -1,0 +1,17 @@
+.featured {
+  position: relative;
+  line-height: 20px;
+}
+.positionprimary {
+  border-radius: var(--br-33xl);
+  background-color: var(--primary-50);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) var(--padding-xs);
+  text-align: left;
+  font-size: var(--body-small-400-size);
+  color: var(--primary-500);
+  font-family: var(--button-button);
+}

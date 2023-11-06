@@ -1,0 +1,105 @@
+.becomeACandidate,
+.loremIpsumDolor {
+  position: relative;
+  display: inline-block;
+}
+.becomeACandidate {
+  line-height: 40px;
+  font-weight: 500;
+  width: 548px;
+}
+.loremIpsumDolor {
+  font-size: var(--body-small-400-size);
+  line-height: 20px;
+  color: var(--gray-scale-600);
+  width: 312px;
+  opacity: 0.8;
+}
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.registerNow {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.fiarrowRightIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button {
+  border-radius: var(--br-10xs);
+  background-color: var(--gray-00);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-5xl);
+  gap: var(--gap-xs);
+  font-size: var(--button-button-size);
+  color: var(--primary-500);
+}
+.candidateEmployers {
+  border-radius: var(--br-xs);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-31xl);
+  gap: var(--gap-7xl);
+  background-image: url(/public/candidate--employers2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.crasInMassa {
+  position: relative;
+  font-size: var(--body-small-400-size);
+  line-height: 20px;
+  display: inline-block;
+  width: 312px;
+  opacity: 0.8;
+}
+.candidateEmployers1 {
+  border-radius: var(--br-xs);
+  flex-direction: column;
+  padding: var(--padding-31xl);
+  gap: var(--gap-7xl);
+  background-image: url(/public/candidate--employers3@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  color: var(--gray-00);
+}
+.callToAction,
+.candidateEmployers1,
+.homepage2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.callToAction {
+  flex-direction: row;
+  padding: var(--padding-81xl) var(--padding-281xl);
+  gap: var(--gap-5xl);
+}
+.homepage2 {
+  position: relative;
+  background-color: var(--gray-00);
+  width: 100%;
+  height: 5258px;
+  overflow: hidden;
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--gray-scale-900);
+  font-family: var(--button-button);
+}

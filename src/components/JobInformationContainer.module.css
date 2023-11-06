@@ -1,0 +1,211 @@
+.jobOverview {
+  position: relative;
+  font-size: var(--body-large-500-size);
+  line-height: 28px;
+  font-weight: 500;
+  color: var(--gray-900);
+  display: inline-block;
+  width: 472px;
+}
+.calendarblankIcon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+.jobPosted {
+  align-self: stretch;
+  position: relative;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.heading,
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.heading {
+  align-self: stretch;
+  gap: var(--gap-9xs);
+}
+.info {
+  flex: 1;
+  gap: var(--gap-xs);
+}
+.entryLevel {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-small-400-size);
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--gray-900);
+}
+.infoParent {
+  width: 472px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.experience,
+.k80kmonth {
+  position: relative;
+  display: inline-block;
+  width: 144px;
+}
+.experience {
+  line-height: 18px;
+  text-transform: uppercase;
+}
+.k80kmonth {
+  font-size: var(--body-small-400-size);
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--gray-900);
+}
+.heading3,
+.info3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.info3 {
+  gap: var(--gap-xs);
+}
+.briefcaseIcon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.infoGroup,
+.jobOverviewParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.jobOverviewParent {
+  flex-direction: column;
+  justify-content: center;
+}
+.jobInformationChild {
+  position: relative;
+  border-top: 2px solid var(--primary-50);
+  box-sizing: border-box;
+  width: 538px;
+  height: 2px;
+}
+.copyLinks,
+.shareThisJob {
+  position: relative;
+  font-weight: 500;
+}
+.shareThisJob {
+  align-self: stretch;
+  line-height: 28px;
+}
+.copyLinks {
+  line-height: 24px;
+}
+.socialButton,
+.socialIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.socialButton {
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-50);
+  width: 165px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+}
+.socialIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+}
+.socialButton1,
+.socialButton2 {
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-50);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs);
+}
+.socialButton2 {
+  background-color: var(--color-palevioletred);
+}
+.image2Icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.socialButton4 {
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-50);
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs);
+  box-sizing: border-box;
+}
+.socialButtonParent {
+  width: 335px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--button-button-size);
+  color: var(--color-palevioletred);
+}
+.jobInformation,
+.shareThisJobParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.shareThisJobParent {
+  width: 536px;
+  align-items: flex-start;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  font-size: var(--body-large-500-size);
+  color: var(--gray-900);
+}
+.jobInformation {
+  position: absolute;
+  top: 320px;
+  left: 784px;
+  border-radius: var(--br-5xs);
+  background-color: var(--gray-00);
+  border: 2px solid var(--primary-50);
+  align-items: center;
+  padding: var(--padding-13xl) 0;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--gray-500);
+  font-family: var(--button-button);
+}

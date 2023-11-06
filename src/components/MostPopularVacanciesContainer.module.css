@@ -1,0 +1,55 @@
+.mostPopularVacancies1 {
+  line-height: 48px;
+  font-weight: 500;
+}
+.fullStackDeveloper,
+.mostPopularVacancies1,
+.openPositions {
+  align-self: stretch;
+  position: relative;
+}
+.fullStackDeveloper {
+  line-height: 28px;
+  font-weight: 500;
+}
+.openPositions {
+  font-size: var(--body-small-400-size);
+  line-height: 20px;
+  color: var(--gray-500);
+}
+.mostPopularVacancies,
+.row,
+.vacancies,
+.vacancies1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vacancies1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs);
+}
+.mostPopularVacancies,
+.row,
+.vacancies {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.mostPopularVacancies,
+.vacancies {
+  flex-direction: column;
+  gap: var(--gap-13xl);
+  font-size: var(--body-large-500-size);
+}
+.mostPopularVacancies {
+  background-color: var(--gray-00);
+  box-shadow: 0-1px 0#e4e5e8 inset;
+  padding: var(--padding-81xl) var(--padding-281xl);
+  gap: var(--gap-31xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--gray-900);
+  font-family: var(--button-button);
+}

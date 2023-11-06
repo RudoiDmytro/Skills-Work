@@ -1,0 +1,166 @@
+.clientsTestimonial {
+  position: relative;
+  line-height: 48px;
+  font-weight: 500;
+  display: inline-block;
+  width: 1320px;
+}
+.star1Icon {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.rating {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.utUllamcorperHendrerit {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  width: 376px;
+}
+.top {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.imageIcon {
+  position: relative;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+.robertFox {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.uiuxDesigner {
+  position: relative;
+  font-size: var(--body-small-400-size);
+  line-height: 20px;
+  color: var(--gray-scale-500);
+  text-align: left;
+}
+.customer,
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.customer {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xs);
+}
+.quoteIcon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.bottom {
+  position: absolute;
+  top: 220px;
+  left: 24px;
+  width: 376px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  color: var(--gray-scale-900);
+}
+.testimonialCard {
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--gray-00);
+  box-shadow: var(--testimonial-card);
+  width: 424px;
+  height: 294px;
+}
+.testimonial2 {
+  position: absolute;
+  top: 0;
+  left: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.fiarrowRightIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconButton {
+  border-radius: var(--br-8xs);
+  background-color: var(--gray-00);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.arrow,
+.iconButton,
+.iconButton1 {
+  display: flex;
+  flex-direction: row;
+}
+.iconButton1 {
+  border-radius: var(--br-8xs);
+  background-color: var(--gray-00);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+}
+.arrow {
+  position: absolute;
+  top: 123px;
+  left: 0;
+  width: 1920px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--padding-185xl);
+  box-sizing: border-box;
+}
+.testimonial1 {
+  position: relative;
+  width: 1920px;
+  height: 294px;
+  text-align: left;
+  font-size: var(--button-button-size);
+  color: var(--gray-scale-700);
+}
+.testimonial {
+  background-color: var(--gray-50);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-81xl) 0;
+  gap: var(--gap-31xl);
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--gray-scale-900);
+  font-family: var(--button-button);
+}

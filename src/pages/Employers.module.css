@@ -1,0 +1,7 @@
+.employers {
+  position: relative;
+  background-color: var(--gray-00);
+  width: 100%;
+  height: 1954px;
+  overflow: hidden;
+}

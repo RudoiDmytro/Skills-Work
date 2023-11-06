@@ -1,0 +1,142 @@
+.topCompanies {
+  align-self: stretch;
+  position: relative;
+  line-height: 48px;
+  font-weight: 500;
+}
+.employersLogoIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.employersLogo {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-palevioletred);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+}
+.dribbble {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+}
+.featured {
+  position: relative;
+  line-height: 20px;
+}
+.badge,
+.dribbbleParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.badge {
+  border-radius: var(--br-33xl);
+  background-color: var(--danger-50);
+  align-items: flex-start;
+  padding: var(--padding-10xs) var(--padding-xs);
+  font-size: var(--body-small-400-size);
+  color: var(--danger-500);
+}
+.dribbbleParent {
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.mappinIcon {
+  position: relative;
+  width: 18px;
+  height: 18px;
+}
+.ukraineKyiv {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.company,
+.info,
+.loaction {
+  display: flex;
+  justify-content: flex-start;
+}
+.loaction {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-9xs);
+  font-size: var(--body-small-400-size);
+  color: var(--gray-500);
+}
+.company,
+.info {
+  align-items: flex-start;
+}
+.info {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.company {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.openPosition3 {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.button {
+  align-self: stretch;
+  border-radius: var(--br-10xs);
+  background-color: var(--primary-50);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-5xl);
+  font-size: var(--button-button-size);
+  color: var(--primary-500);
+}
+.employerfalse01truefalsef {
+  border-radius: var(--br-5xs);
+  background-color: var(--gray-00);
+  box-shadow: 0 2px 18px rgba(24, 25, 28, 0.03);
+  border: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  width: 424px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xl);
+  gap: var(--gap-xl);
+}
+.employerfalse01truefalsefParent,
+.featuredCompanies,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.featuredCompanies,
+.frameParent {
+  flex-direction: column;
+  font-size: var(--body-large-500-size);
+  color: var(--gray-scale-900);
+}
+.featuredCompanies {
+  padding: 0 var(--padding-281xl) var(--padding-81xl);
+  gap: var(--gap-31xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--gray-900);
+  font-family: var(--button-button);
+}

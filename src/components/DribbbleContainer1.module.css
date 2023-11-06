@@ -1,0 +1,15 @@
+.frameParent,
+.frameWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  position: absolute;
+  top: 358px;
+  left: 299px;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  cursor: pointer;
+}

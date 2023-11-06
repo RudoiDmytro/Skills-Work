@@ -1,0 +1,61 @@
+.penNibDuotone1Icon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon {
+  border-radius: var(--br-5xs);
+  background-color: var(--primary-50);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lg);
+}
+.graphicsDesign,
+.openPosition {
+  position: relative;
+  display: inline-block;
+  width: 180px;
+}
+.graphicsDesign {
+  line-height: 28px;
+  font-weight: 500;
+}
+.openPosition {
+  font-size: var(--body-small-400-size);
+  line-height: 20px;
+  color: var(--gray-600);
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.category,
+.categoryParent {
+  display: flex;
+  flex-direction: row;
+}
+.category {
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--gray-00);
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xl);
+}
+.categoryParent {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--body-large-500-size);
+  color: var(--gray-900);
+  font-family: var(--button-button);
+}

@@ -1,0 +1,35 @@
+.icons,
+.signUp {
+  position: relative;
+}
+.icons {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.signUp {
+  font-weight: 500;
+}
+.iconsParent {
+  position: absolute;
+  top: calc(50% - 17px);
+  left: calc(50% - 42px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.button {
+  border-radius: 16px;
+  background-color: var(--color-gray-200);
+  width: 168px;
+  height: 64px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: var(--gray-00);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,395 @@
+.frame2,
+.frameIcon {
+  position: absolute;
+  overflow: hidden;
+}
+.frame2 {
+  top: 138px;
+  left: 0;
+  width: 1920px;
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frameIcon {
+  top: 156px;
+  left: 1px;
+  width: 60px;
+  height: 394px;
+}
+.findJob {
+  position: relative;
+  line-height: 20px;
+}
+.navLink {
+  background-color: var(--gray-50);
+  align-items: center;
+  padding: var(--padding-sm) 0;
+  cursor: pointer;
+}
+.navLink,
+.navLink3,
+.navLinkParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.navLink3 {
+  background-color: var(--gray-50);
+  align-items: center;
+  padding: var(--padding-sm) 0;
+}
+.navLinkParent {
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+}
+.phonecallIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.div {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.phonecallParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.image1Icon {
+  position: relative;
+  width: 24px;
+  height: 16px;
+  object-fit: cover;
+}
+.fichevronDownIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.englishParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-9xs);
+}
+.navLink4 {
+  height: 20px;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  color: var(--gray-600);
+}
+.frameGroup,
+.frameParent,
+.navLink4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.frameGroup {
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  color: var(--gray-900);
+}
+.frameParent {
+  background-color: var(--gray-50);
+  width: 1920px;
+  justify-content: space-between;
+  padding: 0 var(--padding-281xl);
+  box-sizing: border-box;
+}
+.briefcase1Icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.skillswork {
+  position: relative;
+  line-height: 40px;
+  font-weight: 600;
+}
+.caretdownIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.image1Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-xs);
+}
+.frameChild {
+  position: relative;
+  border-right: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  width: 1px;
+  height: 33px;
+}
+.fisearchIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.jobTittleKeyword {
+  position: relative;
+  line-height: 24px;
+}
+.fisearchParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--button-button-size);
+  color: var(--gray-400);
+}
+.frameContainer {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-xl);
+}
+.frameContainer,
+.logoParent,
+.search {
+  display: flex;
+  justify-content: center;
+}
+.search {
+  border-radius: var(--br-8xs);
+  background-color: var(--gray-00);
+  border: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  width: 668px;
+  height: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 var(--padding-5xl);
+  font-size: var(--body-small-400-size);
+}
+.logoParent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-13xl);
+}
+.bellringingIcon,
+.buttonChild {
+  position: relative;
+  width: 25px;
+  height: 25px;
+}
+.buttonChild {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+}
+.button,
+.navigation1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button {
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.navigation1 {
+  background-color: var(--gray-00);
+  width: 1920px;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-281xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+  color: var(--gray-900);
+}
+.frame3,
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.navigation {
+  background-color: var(--gray-00);
+  box-shadow: 0-1px 0#e4e5e8 inset;
+  align-items: flex-start;
+}
+.frame3 {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  width: 1920px;
+  height: 706px;
+  overflow: hidden;
+  align-items: center;
+}
+.free {
+  color: var(--color-palevioletred);
+}
+.englishBasicFreeContainer {
+  align-self: stretch;
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+}
+.heading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--body-large-500-size);
+}
+.theEnglishLanguage {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.company,
+.company1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.company1 {
+  color: var(--color-palevioletred);
+}
+.jobChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 2px;
+  flex-shrink: 0;
+}
+.image3Icon {
+  position: relative;
+  width: 37px;
+  height: 38px;
+  object-fit: cover;
+}
+.inputField,
+.inputField1 {
+  flex: 1;
+  border-radius: var(--br-8xs);
+  background-color: var(--gray-00);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 4.980712890625px 0 5.019287109375px;
+  gap: var(--gap-sm);
+}
+.inputField1 {
+  margin-left: -8px;
+}
+.devider {
+  position: relative;
+  border-right: 1px solid var(--gray-scale-50);
+  box-sizing: border-box;
+  width: 1px;
+  height: 73px;
+  margin-left: -8px;
+}
+.adbanceFilter,
+.buttonWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.buttonWrapper {
+  align-items: flex-start;
+  margin-left: -8px;
+}
+.adbanceFilter {
+  border-radius: var(--br-5xs);
+  background-color: var(--gray-00);
+  box-shadow: 0 8px 24px rgba(0, 44, 109, 0.04);
+  border: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  width: 952px;
+  align-items: center;
+  padding: 0 var(--padding-xs);
+  color: var(--color-black);
+}
+.frame4,
+.job {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+.job {
+  border-radius: var(--br-5xs);
+  background-color: var(--gray-00);
+  box-shadow: 0 2px 18px rgba(24, 25, 28, 0.03);
+  border: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  height: 450px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-5xl) var(--padding-6xl);
+  gap: var(--gap-16xl);
+}
+.frame4 {
+  position: absolute;
+  top: 234px;
+  left: 460px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--button-button-size);
+  color: var(--gray-900);
+}
+.frame1,
+.frameItem {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame1 {
+  position: relative;
+  width: 1921px;
+  height: 706px;
+}
+.frameItem {
+  position: undefined;
+  width: 308px;
+  height: 100px;
+  margin-bottom: 208px;
+}
+.frame {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--body-small-400-size);
+  color: var(--gray-600);
+  font-family: var(--button-button);
+}

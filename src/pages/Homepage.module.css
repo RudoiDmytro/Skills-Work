@@ -1,0 +1,20 @@
+.callToAction,
+.homepage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.callToAction {
+  align-self: stretch;
+  flex-direction: row;
+  padding: var(--padding-81xl) var(--padding-281xl);
+  gap: var(--gap-5xl);
+}
+.homepage {
+  position: relative;
+  background-color: var(--gray-00);
+  width: 100%;
+  height: 5428px;
+  overflow: hidden;
+  flex-direction: column;
+}

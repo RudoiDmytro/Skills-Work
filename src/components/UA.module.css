@@ -1,0 +1,30 @@
+.image1Icon {
+  position: relative;
+  width: 24px;
+  height: 16px;
+  object-fit: cover;
+}
+.english {
+  position: relative;
+  line-height: 20px;
+}
+.englishWrapper,
+.ua {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.ua {
+  height: 20px;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  cursor: pointer;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--body-small-400-size);
+  color: var(--gray-600);
+  font-family: var(--button-button);
+}

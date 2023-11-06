@@ -1,0 +1,18 @@
+.home {
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+}
+.statusactiveIconfalse {
+  background-color: var(--gray-50);
+  box-shadow: 0-2px 0#0a65cc inset;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0;
+  text-align: left;
+  font-size: var(--body-small-400-size);
+  color: var(--primary-500);
+  font-family: var(--button-button);
+}

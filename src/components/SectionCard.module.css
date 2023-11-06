@@ -1,0 +1,236 @@
+.aliquamVitaeTurpis,
+.findAJob {
+  position: relative;
+  display: inline-block;
+}
+.findAJob {
+  line-height: 64px;
+  font-weight: 500;
+  width: 652px;
+}
+.aliquamVitaeTurpis {
+  font-size: var(--body-large-500-size);
+  line-height: 28px;
+  color: var(--gray-600);
+  width: 536px;
+}
+.findAJobThatSuitsYourIntParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.fisearchIcon,
+.jobTittleKeyword {
+  position: absolute;
+  top: calc(50% - 12px);
+}
+.jobTittleKeyword {
+  left: 54px;
+  line-height: 24px;
+}
+.fisearchIcon {
+  left: 18px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.inputField {
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--gray-00);
+  width: 288px;
+  height: 56px;
+}
+.frameChild {
+  position: relative;
+  border-right: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  width: 1px;
+  height: 33px;
+}
+.inputField1 {
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--gray-00);
+  width: 249px;
+  height: 56px;
+}
+.inputFieldParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.findJob {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.button,
+.search1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-palevioletred);
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-13xl);
+  color: var(--gray-00);
+}
+.search1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--gray-00);
+  box-shadow: var(--search-shadow);
+  border: 1px solid var(--gray-100);
+  justify-content: flex-start;
+  padding: var(--padding-xs);
+  gap: var(--gap-xs);
+}
+.suggestion1 {
+  color: var(--gray-400);
+}
+.designer,
+.digitalMarketing,
+.suggestion1 {
+  position: relative;
+  line-height: 20px;
+}
+.digitalMarketing {
+  font-weight: 500;
+  color: var(--color-palevioletred);
+}
+.info,
+.search,
+.suggestion {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.suggestion {
+  flex-direction: row;
+  text-align: center;
+  font-size: var(--body-small-400-size);
+  color: var(--gray-700);
+}
+.info,
+.search {
+  flex-direction: column;
+}
+.search {
+  gap: var(--gap-5xl);
+  font-size: var(--button-button-size);
+  color: var(--gray-400);
+}
+.info {
+  position: absolute;
+  top: 109px;
+  left: 300px;
+  gap: var(--gap-13xl);
+}
+.illustrationIcon {
+  position: absolute;
+  top: 100px;
+  left: 1128px;
+  width: 492px;
+  height: 382px;
+  overflow: hidden;
+}
+.briefcaseDuotone1Icon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.icon {
+  border-radius: var(--br-9xs);
+  background-color: var(--primary-50);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+}
+.div,
+.liveJob {
+  position: relative;
+  display: inline-block;
+  width: 180px;
+}
+.div {
+  line-height: 32px;
+  font-weight: 500;
+}
+.liveJob {
+  font-size: var(--button-button-size);
+  line-height: 24px;
+  color: var(--gray-500);
+}
+.feature,
+.info1 {
+  justify-content: flex-start;
+}
+.info1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-7xs);
+}
+.feature {
+  border-radius: var(--br-5xs);
+  background-color: var(--gray-00);
+  align-items: center;
+  padding: var(--padding-xl);
+  gap: var(--gap-xl);
+}
+.feature,
+.feature1,
+.funFact,
+.icon1 {
+  display: flex;
+  flex-direction: row;
+}
+.icon1 {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-palevioletred);
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+}
+.feature1,
+.funFact {
+  align-items: center;
+}
+.feature1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--gray-00);
+  box-shadow: var(--hover-shadow-primary);
+  justify-content: flex-start;
+  padding: var(--padding-xl);
+  gap: var(--gap-xl);
+}
+.funFact {
+  position: absolute;
+  top: 582px;
+  left: calc(50% - 960px);
+  width: 1920px;
+  justify-content: space-between;
+  padding: 0 var(--padding-281xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-5xl);
+}
+.infoParent {
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  width: 1920px;
+  height: 794px;
+  text-align: left;
+  font-size: var(--font-size-37xl);
+  color: var(--gray-900);
+  font-family: var(--button-button);
+}

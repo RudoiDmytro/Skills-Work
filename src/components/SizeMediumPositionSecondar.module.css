@@ -1,0 +1,27 @@
+.fiarrowRightIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.primary {
+  position: relative;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.sizemediumPositionsecondar {
+  border-radius: var(--br-10xs);
+  background-color: var(--primary-50);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-5xl);
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--button-button-size);
+  color: var(--primary-500);
+  font-family: var(--button-button);
+}

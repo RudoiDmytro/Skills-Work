@@ -1,0 +1,42 @@
+.label {
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+}
+.div,
+.label2,
+.label9 {
+  position: relative;
+  line-height: 20px;
+}
+.label2 {
+  display: none;
+}
+.label9 {
+  color: var(--gray-900);
+}
+.breadcrumb,
+.process {
+  display: flex;
+  flex-direction: row;
+}
+.process {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--body-small-400-size);
+  color: var(--gray-500);
+}
+.breadcrumb {
+  background-color: var(--gray-50);
+  width: 1920px;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xl) var(--padding-281xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--body-large-500-size);
+  color: var(--gray-900);
+  font-family: var(--button-button);
+}

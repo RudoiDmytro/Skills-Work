@@ -1,0 +1,21 @@
+.divider1 {
+  flex: 1;
+  background-color: var(--color-dimgray-200);
+  height: 2px;
+}
+.divider1,
+.or {
+  position: relative;
+}
+.divider {
+  width: 669px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-avenir);
+}

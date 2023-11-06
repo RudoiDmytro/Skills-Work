@@ -1,0 +1,27 @@
+.div {
+  background-color: var(--primary-200);
+  width: 10px;
+}
+.div,
+.div1,
+.div3 {
+  position: relative;
+  border-radius: var(--br-13xl);
+  height: 10px;
+}
+.div1 {
+  background-color: var(--primary-200);
+  width: 10px;
+  display: none;
+}
+.div3 {
+  background-color: var(--primary-5001);
+  width: 24px;
+}
+.tracker {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}

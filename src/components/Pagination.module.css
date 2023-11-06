@@ -1,0 +1,10 @@
+.pages,
+.pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pagination {
+  gap: var(--gap-5xs);
+}

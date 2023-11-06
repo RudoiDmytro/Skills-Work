@@ -1,0 +1,25 @@
+.topCompanies {
+  align-self: stretch;
+  position: relative;
+  line-height: 48px;
+  font-weight: 500;
+}
+.featuredCompanies,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--body-large-500-size);
+  color: var(--gray-scale-900);
+}
+.featuredCompanies {
+  padding: 0 var(--padding-281xl) var(--padding-81xl);
+  gap: var(--gap-31xl);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--gray-900);
+  font-family: var(--button-button);
+}

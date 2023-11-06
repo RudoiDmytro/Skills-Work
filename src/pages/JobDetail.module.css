@@ -1,0 +1,25 @@
+.frame {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-1509xl);
+}
+.jobInformationParent {
+  position: relative;
+  width: 1320px;
+  height: 2602px;
+  margin-top: -2610px;
+}
+.jobDetail {
+  position: relative;
+  background-color: var(--gray-00);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}

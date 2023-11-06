@@ -1,0 +1,17 @@
+.div {
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 8px);
+  line-height: 20px;
+  font-weight: 500;
+}
+.property1hover {
+  border-radius: var(--br-31xl);
+  background-color: var(--gray-50);
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  font-size: var(--body-small-400-size);
+  color: var(--gray-900);
+  font-family: var(--button-button);
+}

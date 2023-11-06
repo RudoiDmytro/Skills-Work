@@ -1,0 +1,91 @@
+.icon,
+.label {
+  position: absolute;
+}
+.label {
+  top: 0;
+  left: 0;
+}
+.icon {
+  top: 3px;
+  right: 49px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.hide,
+.passwordHideSee {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.passwordHideSee {
+  right: 8.9px;
+  width: 73px;
+  height: 27px;
+  display: none;
+  text-align: right;
+  font-size: var(--body-large-500-size);
+  color: var(--color-dimgray-300);
+}
+.labelParent {
+  align-self: stretch;
+  height: 27px;
+}
+.div,
+.inputsChild,
+.labelParent {
+  position: relative;
+}
+.inputsChild {
+  background-color: var(--color-gray-200);
+  width: 1px;
+  height: 24px;
+}
+.icons,
+.inputs {
+  position: absolute;
+  display: none;
+}
+.inputs {
+  top: 15px;
+  left: 24px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icons {
+  top: 40px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.textField {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-xs);
+  border: 1px solid var(--color-dimgray-400);
+  box-sizing: border-box;
+  height: 56px;
+  overflow: hidden;
+  flex-shrink: 0;
+  color: var(--color-gray-200);
+}
+.errorMessage {
+  position: relative;
+  font-size: var(--body-small-400-size);
+  color: var(--color-crimson);
+}
+.property1genericTextField {
+  width: 665px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--button-button-size);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-poppins);
+}

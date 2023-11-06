@@ -1,0 +1,81 @@
+.fisearchIcon,
+.searchByJob {
+  position: absolute;
+  top: calc(50% - 12px);
+}
+.searchByJob {
+  left: 48px;
+  line-height: 24px;
+}
+.fisearchIcon {
+  left: 12px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.inputField {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--gray-00);
+  height: 48px;
+}
+.devider {
+  position: relative;
+  border-right: 1px solid var(--gray-scale-50);
+  box-sizing: border-box;
+  width: 1px;
+  height: 73px;
+}
+.city {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: 44px;
+  line-height: 24px;
+}
+.crosshairIcon,
+.mappinIcon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+}
+.crosshairIcon {
+  top: calc(50% - 12px);
+  right: 12px;
+}
+.mappinIcon {
+  top: 12px;
+  left: 12px;
+}
+.inputField1 {
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--gray-00);
+  width: 424px;
+  height: 48px;
+}
+.adbanceFilter,
+.buttonParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.adbanceFilter {
+  position: absolute;
+  top: 238px;
+  left: 300px;
+  border-radius: var(--br-5xs);
+  background-color: var(--gray-00);
+  box-shadow: 0 8px 24px rgba(0, 44, 109, 0.04);
+  border: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  width: 1320px;
+  align-items: center;
+  padding: 0 var(--padding-xs);
+  text-align: left;
+  font-size: var(--button-button-size);
+  color: var(--gray-400);
+  font-family: var(--button-button);
+}

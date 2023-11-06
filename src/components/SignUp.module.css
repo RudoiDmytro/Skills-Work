@@ -1,0 +1,66 @@
+.icons {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  display: none;
+}
+.tabsNavParent {
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.signUp1 {
+  position: relative;
+  font-weight: 500;
+}
+.socialMediaSignuploginParent,
+.textFieldParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.textFieldParent {
+  flex-direction: row;
+}
+.frameGroup,
+.frameParent,
+.signUpParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.frameParent,
+.signUpParent {
+  gap: var(--gap-21xl);
+}
+.signUpParent {
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+.frameParent {
+  position: absolute;
+  top: 51px;
+  left: 64px;
+}
+.signUp {
+  position: relative;
+  border-radius: var(--br-5xl);
+  background-color: var(--gray-00);
+  width: 732px;
+  height: 1000px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}

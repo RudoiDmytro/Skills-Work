@@ -1,0 +1,85 @@
+.icons {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  display: none;
+}
+.tabsNavParent {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.signIn1 {
+  position: relative;
+  font-weight: 500;
+}
+.socialMediaSignuploginParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frameParent,
+.signInParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-21xl);
+}
+.signInParent {
+  align-self: stretch;
+}
+.frameParent {
+  position: absolute;
+  top: 50px;
+  left: 64px;
+  width: 604px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-poppins);
+}
+.signIn {
+  position: relative;
+  border-radius: var(--br-5xl);
+  background-color: var(--gray-00);
+  width: 732px;
+  height: 791px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .tabsNavParent {
+    flex-direction: row;
+    gap: var(--gap-0);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 960px) {
+  .tabsNavParent {
+    flex-direction: row;
+    gap: var(--gap-0);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 420px) {
+  .tabsNavParent {
+    flex-direction: column;
+    gap: var(--gap-0);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
