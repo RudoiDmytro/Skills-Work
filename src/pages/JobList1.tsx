@@ -8,6 +8,7 @@ import EmployersGoogleSizeMedium1 from "../components/EmployersGoogleSizeMedium1
 import Header from "../components/Header";
 import AdvancedFilterForm from "../components/AdvancedFilterForm";
 import styles from "./JobList1.module.css";
+import MainHeader from "../components/MainHeader";
 
 const JobList1: FunctionComponent = () => {
   const navigate = useNavigate();
@@ -22,6 +23,7 @@ const JobList1: FunctionComponent = () => {
 
   return (
     <div className={styles.jobList}>
+      <MainHeader />
       <Pagination
         fiarrowRight="/fiarrowright.svg"
         paginationPosition="absolute"

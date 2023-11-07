@@ -145,7 +145,7 @@ const Header1: FunctionComponent = () => {
           placement="Centered"
           onOutsideClick={closePricing}
         >
-          <Pricing onClose={closePricing}/>
+          <Pricing/>
         </PortalPopup>
       )}
     </>
